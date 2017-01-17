@@ -2,7 +2,7 @@ javascript:(function () {
 	var cursorX = void 0;
 	var cursorY = void 0;
 
-	sasasfunction onMouseMove(evt) {
+	function onMouseMove(evt) {
 		cursorX = evt.clientX;
 		cursorY = evt.clientY;
 	}
